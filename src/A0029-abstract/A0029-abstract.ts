@@ -13,7 +13,7 @@ export abstract class Personagem {
     this.vida -= forcaAtaque;
     console.log(`${this.emoji} - ${this.nome} agora tem ${this.vida} de vida`);
   }
-  // Método abstrato não tem corpo, ele só indica o que a subclasse deverá possuir
+  // Método e propriedade abstrato não tem corpo, ele só indica o que a subclasse deverá possuir
   abstract bordao(): void;
 }
 
